@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+		<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link href='https://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
+
+     <!-- animation css download location -->
+   <link rel="stylesheet" href="css/animation.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+	<!-- animation  jquery download location -->
+           <script src="css/wow.js"></script>
+
+	<style type="text/css">
+
+.inquiry-form-main-div
+{
+	  position: absolute;
+	  vertical-align: middle;
+}
+.inquiry-form-main-div .inquiry-form-div
+{
+	  position:relative;
+
+}
+
+		.container
+{
+	max-width:1400px; 
+}
+
+		.inquiry-main-div
+{
+	padding-top:100px;
+	margin-bottom:100px;
+}
+
+		label 
+		{
+  position: absolute;
+  top: 0;
+  /*font-size: 30px;*/
+  margin: 10px;
+  padding: 0 10px;
+  
+  -webkit-transition: top .2s ease-in-out,  font-size .2s ease-in-out;
+  transition: top .2s ease-in-out,  font-size .2s ease-in-out;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #d2d2d2;
+  font-size: 20px;
+  
+ 
+}	
+textarea[type=text] {
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #d2d2d2;
+  font-size: 20px;
+  resize:none;
+  
+}	
+.inquiry-main-div .inquiry-form-div
+{
+	margin-bottom:35px;
+}
+.inquiry-main-div select
+{
+	height:52px;
+    border-radius: 5px;
+    padding-left: 25px;
+    background-color: white;
+    transition: 0.5s;
+    border: 1px solid #d2d2d2;
+}
+
+.form-control:focus {
+    color: #495057;
+    /* border: 1px solid red; */
+    /*border-color: #FF9800;*/
+    border-color: #FF9800;
+   
+    outline: 0;
+    box-shadow: 0 0 0 0rem #FF5722;
+}
+.inquiry-form-div .Companyinquiry:focus {
+    color: #495057;
+    /* border: 1px solid red; */
+    /*border-color: #FF9800;*/
+
+    border-color: #FF9800;
+    outline: 0;
+    box-shadow: 0 0 0 0rem #FF5722;
+}
+.active {
+  top: -26px;
+  font-size: 20px;
+
+}
+input[type=text]:focus {
+  outline:none;
+}
+
+
+</style>
+</head>
+<body>
+
+<section class="inquiry-main-div">
+
+	<div class="container">
+		
+       <div class="col-md-12">
+       	
+        <div class="inquiry-form-main-div">
+        	
+        	 <form action="#" method="post">
+            
+                  <div class="row">
+
+                    <div class="col-md-6">
+                    	<div class="inquiry-form-div wow zoomIn animated animated" style="visibility:visible; animation-duration: 2s; animation-delay: 0.5s; animation-name:zoomIn;">
+                          <label for="fname">Company Name *</label>
+                           <input id="fname" class="form-control Companyinquiry" placeholder="" type="text" name="company_name" spellcheck="false">
+                    	</div>	
+                    </div>
+
+                     <div class="col-md-6">
+                    	<div class="inquiry-form-div wow zoomIn animated animated" style="visibility:visible; animation-duration: 2s; animation-delay: 0.5s; animation-name:zoomIn;">
+                          <label for="cname">Contact Person *</label>
+                           <input id="cname" class="form-control Companyinquiry" placeholder="" type="text" name="company_name" spellcheck="false">
+                    	</div>	
+                    </div>
+
+                       <div class="col-md-6">
+                    	<div class="inquiry-form-div wow zoomIn animated animated" style="visibility:visible; animation-duration: 2s; animation-delay: 0.5s; animation-name:zoomIn;">
+                          <label for="ename">Email Address *</label>
+                           <input id="ename" class="form-control Companyinquiry" placeholder="" type="text" name="company_name" spellcheck="false">
+                    	</div>	
+                    </div>
+
+                     <div class="col-md-6">
+                    	<div class="inquiry-form-div wow zoomIn animated animated" style="visibility:visible; animation-duration: 2s; animation-delay: 0.5s; animation-name:zoomIn;">
+                          <label for="pname">Phone/Cell *</label>
+                           <input id="pname" class="form-control Companyinquiry" placeholder="" type="text" name="company_name" spellcheck="false">
+                    	</div>	
+                    </div>
+
+                    <div class="col-md-12">
+                    	<div class="inquiry-form-div wow zoomIn animated animated" style="visibility:visible; animation-duration: 2s; animation-delay: 0.5s; animation-name:zoomIn;">
+                    		 <label for="sname">Select Country</label>
+                              <select class="form-control">
+          	   	   	 			  <option>
+          	   	   	 			  	   
+          	   	   	 			  </option>
+          	   	   	 		</select>
+
+                    	</div>
+                    </div>
+
+                    <div class="col-md-12">
+                    		<div class="inquiry-form-div wow zoomIn animated animated" style="visibility:visible; animation-duration: 2s; animation-delay: 0.5s; animation-name:zoomIn;">
+                    			<label for="aname">Address *</label>
+                              <textarea class="form-control" rows="4" type="text" placeholder="" name="address" id="address" spellcheck="false"></textarea>
+                    		</div>	
+                    </div>
+
+                    <div class="col-md-12">
+                    		<div class="inquiry-form-div wow zoomIn animated animated" style="visibility:visible; animation-duration: 2s; animation-delay: 0.5s; animation-name:zoomIn;">
+                    			<label for="mname">Message *</label>
+                             	<textarea class="form-control" rows="4" type="text" placeholder="" name="address" id="address" spellcheck="false"></textarea>
+                    		</div>	
+                    </div>
+
+
+                    <div class="col-md-12">
+          	   	   	   <button class="btn btn-info wow zoomIn animated animated" style="visibility:visible; animation-duration: 2s; animation-delay: 0.5s; animation-name:zoomIn;">SUBMIT US</button>
+          	   	     </div>
+
+                  </div>	
+
+        	 </form>	
+        </div>
+
+
+       </div>
+
+
+	</div>
+
+</section>	
+
+</body>
+</html>
+<script type="text/javascript">
+	$('input').on('focusin', function() {
+  $(this).parent().find('label').addClass('active');
+});
+
+
+$('input').on('focusout', function() {
+  if (!this.value) {
+    $(this).parent().find('label').removeClass('active');
+  }
+});
+
+$('select').on('focusin', function() {
+  $(this).parent().find('label').addClass('active');
+});
+
+$('select').on('focusout', function() {
+  if (!this.value) {
+    $(this).parent().find('label').removeClass('active');
+  }
+});
+
+$('textarea').on('focusin', function() {
+  $(this).parent().find('label').addClass('active');
+});
+
+$('textarea').on('focusout', function() {
+  if (!this.value) {
+    $(this).parent().find('label').removeClass('active');
+  }
+});
+
+
+
+
+// animation js
+new WOW().init();
+
+
+
+</script>
